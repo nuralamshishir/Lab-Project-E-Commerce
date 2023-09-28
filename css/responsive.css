@@ -1,0 +1,261 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .text-center {
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+.banner-des h3,h4{
+	font-size:15px;
+}
+ 
+}
+/* Tablet Layout: Max-799px. */
+@media only screen and (max-width: 799px) { 
+#navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    right: -300px;
+    width: 300px;
+	padding:44px 0 0 40px;
+    background: #ddd;
+    box-shadow: 0px 40px 60px #8e8695;
+	transition:0.2s;
+	align-items: flex-start;
+}
+
+
+
+#navbar.active{
+	right:0px;
+}
+#navbar li{
+	margin-bottom:20px;
+}
+.mobil{
+	display:flex;
+	align-items:center;
+}
+#close{
+    display:flex;
+	align-items:center;
+}
+#hero{
+	height:60vh;
+	background-position:top 30% right 30%;
+}
+
+#feature{
+	justify-content:center;
+}
+#feature .feature-box{
+	margin:15px 15px;
+}
+.sec-pd{
+	padding:40px 40px;
+}
+#product-1 .Pro-containner{
+	justify-content:center;
+}
+#product-1 .Pro{
+	margin:15px;
+}
+#banner{
+	height:30vh;
+}
+#sm-banner .containner-banner-box{
+	height: 30vh;
+    min-width: 100%;
+}
+#newslleter .form input{
+	height:2.125rem;
+}
+#newslleter .normal{
+	height:2.125rem;
+}
+.install img{
+	margin:3px 0px 3px 0px;
+}
+
+
+}
+/* Wide Mobile Layout: max width 477px. */
+@media only screen and (max-width: 477px) { 
+
+#header {
+padding:0px 18px;
+}
+#hero{
+	padding: 0px 20px;
+    background-position: 60%;
+}
+#hero h2{
+	font-size:23px;
+}
+#hero h2.blue-color{
+	margin-bottom:10px;
+}
+#hero .hero-single {
+	position: absolute;
+    top: 14%;
+}
+#product-1 .Pro .title{
+    display: none;
+}
+.slide-area-img{
+	top: 34%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+	margin-top:10px;
+}
+#hero button {
+    padding: 14px 60px 9px 65px;
+    font-size: 12px;
+}
+.section-m1{
+	margin:0;
+}
+
+#feature .feature-box{
+	width: 132px;
+    margin:0 15px 10px 0;
+}
+#feature{
+	justify-content:center;
+}
+#product-1 .Pro{
+	width:100%;
+	margin:0 0 10px 0;
+}
+
+#banner h2{
+	font-size: 17px;
+}
+
+#banner button {
+    padding: 8px 19px;
+    font-size: 10px;
+}
+.sec-pd{
+	padding: 20px 20px;
+}
+#banner3 .containner-banner3 {
+    width: 100%;
+    margin: 0 0 10px;
+
+}
+#newslleter .form {
+    width: 100%;
+}
+#newslleter .newslleter-text p{
+	font-size:12px;
+}
+#newslleter .newslleter-text h3{
+	font-size:23px;
+}
+
+.margin-1{
+	margin:0px;
+}
+.col{
+	margin-bottom:20px;
+}
+#footer .install img{
+	margin:0px;
+}
+
+.col h4{
+	margin-bottom:6px;
+}
+
+/**blog page **/
+#blog .blog-box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#blog{
+	padding:20px 20px 0 20px;
+}
+#blog .blog-img {
+	width:100%;
+	margin:0;
+	margin-bottom:20px;
+}
+#blog .blog-datails{
+	width:100%;
+}
+/**blog page end**/
+
+#about-head{
+	flex-direction:column;
+}
+
+
+#about-head div{
+    margin: 0;
+    margin-top: 20px;
+}
+
+#about-head img{
+	width: 100%;
+    height: 100%;
+}
+
+#about-apps .video{
+	width:100%;
+
+}
+#contact-details .details{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#contact-details .map{
+	width: 100%;
+    margin-bottom: 20px;
+}
+#contact-details{
+	
+}
+
+
+#card-add{
+	overflow-x:auto;
+}
+
+#page-header{
+	height:24vh;
+}
+
+/**#card-add*/
+#card-add{
+	flex-direction:column;
+}
+#card-add .coupon{
+	width:100%;
+}
+#subtotal{
+	width:100%;
+}
+
+#form-details .people div{
+	margin-top:20px;
+}
+#prodatails .singel-pro-img{
+	margin-top:50px;
+}
+
+
+
+
+}
